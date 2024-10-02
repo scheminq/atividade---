@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.modal {
+    border-radius: 20px;
+    background-color: #ffff;
+    height: 310px;
+    width: 260px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+body {
+    background-image: url(../assents/ESCOLA-SENAI-WEB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo-img {
+    height: 60px;
+    width: 100%;
+}
+input {
+    height: 25px;
+    width: 195px;
+    border-radius: 7px;
+    border: none;
+    border-color: aliceblue;
+    box-shadow: 1px 1px 1px #ccc;
+}
+button {
+    height: 30px;
+    width: 85px;
+    border-radius: 7px;
+    border: none;
+    background-color: blue;
+    color: #ffff;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.caixa-botoes {
+   height: 250px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
